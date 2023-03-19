@@ -1,6 +1,15 @@
 /*
+ █▀▀█ █░▒█ █▀▀▀ █▀▀▀ █▄░▒█       █▀▀▀ █░░░ ▀█▀ █▀▀▀█ █▀▀█
+ █░▒█ █░▒█ █▀▀▀ █▀▀▀ █▒█▒█       █▀▀▀ █░░░ ░█░ ▀▀▀▄▄ █▄▄█
+ ▀▀█▄ ▀▄▄▀ █▄▄▄ █▄▄▄ █░░▀█       █▄▄▄ █▄▄█ ▄█▄ █▄▄▄█ █░▒█
 
-© 𝕋𝔼𝔸𝕄 𝔻𝔸ℝ𝕂 𝔻𝔼𝕍𝕀𝕃
+WHATSAPP BOT BY MR NIMA ( DARK MAKER OFC )
+
+WHATSAPP - 94719574492
+WEB SITE - http://queenelisa.42web.io/
+SUPPORT GROUP - https://t.me/queenelisasupport
+YOUTUBE - http://youtube.com/MRNIMAOFC
+
 
 */
 
@@ -12,23 +21,23 @@ const chalk = require('chalk')
 ⚙️ BOT SETTINGS  ⚙️
 */
 //👇 if you need seen massage use " true "
-global.READ_MASSAGE = true
+global.READ_MASSAGE = false
 //👇 enable desable Girls Voice Reply
-global.VOICE_REPLY = true
+global.VOICE_REPLY = false
 //👇 Do you want show time on your bio use "true" want desable use "false"
 global.AUTO_BIO = false
 //👇 Inbox massage block PM block
-global.INBOX_BLOCK = true
+global.INBOX_BLOCK = false
 //👇 Auto react 
-global.AUTO_REACT = true
+global.AUTO_REACT = false
 //👇 Bad word Auto delete ( you must add bad words )
-global.ANTI_BADWORD = true
+global.ANTI_BADWORD = false
 //👇 Kick And Auto Delete Group link Senders
-global.ANTI_G_LINK = true
+global.ANTI_G_LINK = false
 //👇 212 Number block
 global.NUMBER_212_BLOCK = false
 //👇 Send Welcome ( true or false )
-global.SEND_WELCOME = process.env.SEND_WELCOME || true
+global.SEND_WELCOME = process.env.SEND_WELCOME || false
 //👇 Send block command message (true or false )
 global.BLOCK_CMD_MESSAGE_SEND = false
 //👇 Send Auto reply , sticker , voice Use true and costemize your own 
@@ -45,23 +54,23 @@ global.UPLOAD_MAX = false
 // You Bots Owner Number 
 global.owner = ['94703855412'] 
 //👇 Your Caption ( Image Video )
-global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 ²⁰²³'
+global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙳𝙴𝚅𝙸𝙻 𝙱𝙾𝚃 ²⁰²³'
 //👇 Your Bot Name
-global.botnma =  '𝘿𝙀𝙑𝙄𝙇 𝘽𝙊𝙏'
+global.botnma =  '𝙳𝙴𝚅𝙸𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃' 
 //👇 Your name
-global.ownernma =  '' 
+global.ownernma =  '𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻' 
 //👇 Sticker Author Name
 global.packname =  '𝚃𝙴𝙰𝙼 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻' 
 //👇 Inbox Block Massage 
-global.INBOX_BLOCK_MSG = '𝙱𝙻𝙾𝙲𝙺 !!!'
+global.INBOX_BLOCK_MSG = 'BLOCK !!!'
 //👇 Owner React Imoji
-global.OWNER_REACT =  '👨‍💻'
+global.OWNER_REACT =  '💻'
 //👇 Song Download Massage 
-global.SONG_DOWN = '```📥𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶...```' 
+global.SONG_DOWN = '```⬇️ Downloading Your Song...```' 
 //👇 Song Uplode massage 
-global.SONG_UP = '```📤𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶...```'
+global.SONG_UP = '```⬆️ Uploding Your Song...```'
 //👇 Menu imoji 
-global.MENU_IMOJI = '👹|🗨️'
+global.MENU_IMOJI = '👸|ℹ️'
 //👇 Your time zone ( use correct time zone )
 global.TIME_ZONE = process.env.TIME_ZONE || 'Asia/Colombo'
 //👇 Removebg Api key
@@ -69,9 +78,9 @@ global.REMOVE_BG_API = 'apikey get on remoebg.com'
 //👇 Pron Video Download 
 global.SEX_VIDEO_DOWNLOAD = process.env.SEX_VIDEO_DOWNLOAD || 'false'
 //👇 Change Bot Language 
-global.LANG = 'SI'
+global.LANG = 'EN'
 //Alive logo
-global.alivelogo = process.env.ALIVE_IMAGE || `https://graph.org/file/a890f96edcaaec8b74f03.jpg`
+global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
 //👇 Alive message
 global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `default`
 //👇 Welcome Mesaage
@@ -129,13 +138,13 @@ global.mess = {
 
 
 //other
-global.pemilik = ['94703855412'] //Change  it
-global.premium = ['94703855412'] //Change it 
-global.pengguna = 'DARK DEVIL' // Your name
+global.pemilik = ['94703855412'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
+global.premium = ['94703855412'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
+global.pengguna = 'Dark Maker' // Your name ඔබේ නම 
 global.sessionName = 'session'
 global.prefix = ['#','!','.'] 
-global.sp = '🤠'
-global.weem = 'DARK DEVIL BOT''
+global.sp = '👽'
+global.weem = 'QUEEN ELISA'
 
 global.limitawal = {
     premium: "Infinity", 
@@ -150,8 +159,8 @@ global.APIKeys = {
 	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
 }
 
-//global.alivelogo = `https://graph.org/file/a890f96edcaaec8b74f03.jpg`
-global.imgalive = fs.readFileSync('./Media/image/DarkDevil.jpg')
+//global.alivelogo = `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
+global.imgalive = fs.readFileSync('./Media/image/Elisa.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
