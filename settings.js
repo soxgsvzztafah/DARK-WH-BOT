@@ -1,14 +1,6 @@
 /*
- █▀▀█ █░▒█ █▀▀▀ █▀▀▀ █▄░▒█       █▀▀▀ █░░░ ▀█▀ █▀▀▀█ █▀▀█
- █░▒█ █░▒█ █▀▀▀ █▀▀▀ █▒█▒█       █▀▀▀ █░░░ ░█░ ▀▀▀▄▄ █▄▄█
- ▀▀█▄ ▀▄▄▀ █▄▄▄ █▄▄▄ █░░▀█       █▄▄▄ █▄▄█ ▄█▄ █▄▄▄█ █░▒█
 
-WHATSAPP BOT BY MR NIMA ( DARK MAKER OFC )
-
-WHATSAPP - 94703855412
-WEB SITE - http://queenelisa.42web.io/
-SUPPORT GROUP - https://t.me/queenelisasupport
-
+© 𝕋𝔼𝔸𝕄 𝔻𝔸ℝ𝕂 𝔻𝔼𝕍𝕀𝕃
 
 */
 
@@ -20,23 +12,23 @@ const chalk = require('chalk')
 ⚙️ BOT SETTINGS  ⚙️
 */
 //👇 if you need seen massage use " true "
-global.READ_MASSAGE = false
+global.READ_MASSAGE = true
 //👇 enable desable Girls Voice Reply
-global.VOICE_REPLY = false
+global.VOICE_REPLY = true
 //👇 Do you want show time on your bio use "true" want desable use "false"
 global.AUTO_BIO = false
 //👇 Inbox massage block PM block
-global.INBOX_BLOCK = false
+global.INBOX_BLOCK = true
 //👇 Auto react 
-global.AUTO_REACT = false
+global.AUTO_REACT = true
 //👇 Bad word Auto delete ( you must add bad words )
-global.ANTI_BADWORD = false
+global.ANTI_BADWORD = true
 //👇 Kick And Auto Delete Group link Senders
-global.ANTI_G_LINK = false
+global.ANTI_G_LINK = true
 //👇 212 Number block
 global.NUMBER_212_BLOCK = false
 //👇 Send Welcome ( true or false )
-global.SEND_WELCOME = process.env.SEND_WELCOME || false
+global.SEND_WELCOME = process.env.SEND_WELCOME || true
 //👇 Send block command message (true or false )
 global.BLOCK_CMD_MESSAGE_SEND = false
 //👇 Send Auto reply , sticker , voice Use true and costemize your own 
@@ -53,23 +45,23 @@ global.UPLOAD_MAX = false
 // You Bots Owner Number 
 global.owner = ['94703855412'] 
 //👇 Your Caption ( Image Video )
-global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽 𝙴𝙻𝙸𝚂𝙰 ²⁰²³'
+global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 ²⁰²³'
 //👇 Your Bot Name
-global.botnma =  '𝐐𝐔𝚵𝚵𝚴 𝚵𝐋𝚰𝐒𝚫 𝚳𝐃 3 𝛁' 
+global.botnma =  '𝘿𝙀𝙑𝙄𝙇 𝘽𝙊𝙏'
 //👇 Your name
-global.ownernma =  '𝑴𝒓 𝑵𝒊𝒎𝒂' 
+global.ownernma =  '' 
 //👇 Sticker Author Name
-global.packname =  '𝙼𝚁 𝙽𝙸𝙼𝙰 𝙾𝙵𝙲' 
+global.packname =  '𝚃𝙴𝙰𝙼 𝙳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻' 
 //👇 Inbox Block Massage 
-global.INBOX_BLOCK_MSG = 'BLOCK !!!'
+global.INBOX_BLOCK_MSG = '𝙱𝙻𝙾𝙲𝙺 !!!'
 //👇 Owner React Imoji
-global.OWNER_REACT =  '💻'
+global.OWNER_REACT =  '👨‍💻'
 //👇 Song Download Massage 
-global.SONG_DOWN = '```⬇️ Downloading Your Song...```' 
+global.SONG_DOWN = '```📥𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶...```' 
 //👇 Song Uplode massage 
-global.SONG_UP = '```⬆️ Uploding Your Song...```'
+global.SONG_UP = '```📤𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝚂𝙾𝙽𝙶...```'
 //👇 Menu imoji 
-global.MENU_IMOJI = '👸|ℹ️'
+global.MENU_IMOJI = '👹|🗨️'
 //👇 Your time zone ( use correct time zone )
 global.TIME_ZONE = process.env.TIME_ZONE || 'Asia/Colombo'
 //👇 Removebg Api key
@@ -79,7 +71,7 @@ global.SEX_VIDEO_DOWNLOAD = process.env.SEX_VIDEO_DOWNLOAD || 'false'
 //👇 Change Bot Language 
 global.LANG = 'SI'
 //Alive logo
-global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
+global.alivelogo = process.env.ALIVE_IMAGE || `https://graph.org/file/a890f96edcaaec8b74f03.jpg`
 //👇 Alive message
 global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `default`
 //👇 Welcome Mesaage
@@ -158,8 +150,8 @@ global.APIKeys = {
 	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
 }
 
-//global.alivelogo = `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
-global.imgalive = fs.readFileSync('./Media/image/Elisa.jpg')
+//global.alivelogo = `https://graph.org/file/a890f96edcaaec8b74f03.jpg`
+global.imgalive = fs.readFileSync('./Media/image/DarkDevil.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
